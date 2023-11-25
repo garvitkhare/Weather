@@ -1,0 +1,106 @@
+body {
+    height: 100%;
+    background: linear-gradient(130deg, rgb(20, 20, 20), rgb(0, 0, 0)) no-repeat fixed;
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+#h {
+    text-align: center;
+    margin-top: -30px;
+    font-size: 22px;
+    color: rgb(225, 223, 237);
+    font-family: Oswald;
+}
+.s {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 40px;
+    padding: 40px 30px;
+    background: linear-gradient(125deg, rgb(54, 209, 168), rgb(91, 84, 138));
+}
+#hh {
+    width: 250px;
+    height: 40px;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 15px;
+}
+.search button img {
+    width: 18px;
+}
+.search button {
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    margin-left: 13px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    outline: 0px;
+}
+.error {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+    display: none;
+}
+.ask {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.weather {
+    display: none;
+    color: white;
+}
+.weather-icon {
+    width: 150px;
+    margin-top: 2px;
+}
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -50px;
+}
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 20px;
+}
+.col {
+    display: contents;
+    align-items: center;
+    text-align: left;
+}
+.col img {
+    width: 40px;
+    margin-right: -100px;
+}
+.Humidity, .Wind {
+    font-size: 16px;
+    margin-top: -6px;
+}
